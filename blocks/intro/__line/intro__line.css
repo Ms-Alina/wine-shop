@@ -1,0 +1,9 @@
+.intro__line {
+  /* display: inline-block; */
+  width: 160px;
+  min-height: 1px;
+  background-color: #FFFFFF;
+  /* border-bottom: 1px solid #FFFFFF; */
+  /* margin: 40px  0; */
+  /* padding: 40px 0; */
+}

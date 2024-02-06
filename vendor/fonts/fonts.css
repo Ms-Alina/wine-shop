@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+    url(montserrat-regular.eot) format('eot'),
+    url(montserrat-regular.ttf) format('truetype'),
+    url(montserrat-regular.woff) format('woff'),
+    url(montserrat-regular.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+    url(montserrat-medium.eot) format('eot'),
+    url(montserrat-medium.ttf) format('truetype'),
+    url(montserrat-medium.woff) format('woff'),
+    url(montserrat-medium.woff2) format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+    url(montserrat-semibold.eot) format('eot'),
+    url(montserrat-semibold.ttf) format('truetype'),
+    url(montserrat-semibold.woff) format('woff'),
+    url(montserrat-semibold.woff2) format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: 
+    url(PlayfairDisplaySC-Bold.eot) format('eot'),
+    url(PlayfairDisplaySC-Bold.ttf) format('truetype'),
+    url(PlayfairDisplaySC-Bold.woff) format('woff');
+}

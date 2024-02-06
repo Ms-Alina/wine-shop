@@ -1,0 +1,25 @@
+.intro__text {
+  margin: 40px 0 50px 0;
+  padding: 0;
+  max-width: 733px;
+  font: 400 16px/1.5 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .intro__text {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    max-width: 500px;
+    font-size: 14px;
+    letter-spacing: 1.2;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro__text {
+    max-width: calc(100% - 40px);
+    font-size: 12px;
+  }
+}
