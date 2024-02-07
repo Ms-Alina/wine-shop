@@ -1,0 +1,29 @@
+.lead {
+  width: 100%;
+  min-height: 900px;
+  background: url(../../images/bgc.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1180px) {
+  .lead {
+    min-height: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .lead {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 550px) {
+  .lead {
+    min-height: 500px;
+  }
+}

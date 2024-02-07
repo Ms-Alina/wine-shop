@@ -1,0 +1,32 @@
+.lead__button {
+  margin: 0;
+  padding: 15px 30px;
+  background-color: #998431;
+  font: 500 16px/1.2 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 1;
+  text-transform: uppercase;
+  -webkit-transition: opacity .6s ease;
+  -o-transition: opacity .6s ease;
+  transition: opacity .6s ease;
+  cursor: pointer;
+
+}
+
+.lead__button:hover {
+  opacity: .8;
+}
+
+@media (max-width: 750px) {
+  .lead__button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .lead__button {
+    text-align: center;
+  }
+}
