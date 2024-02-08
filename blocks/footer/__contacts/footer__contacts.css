@@ -1,0 +1,22 @@
+.footer__contacts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 850px) {
+  .footer__contacts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 460px) {
+  .footer__contacts {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}

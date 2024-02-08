@@ -1,0 +1,29 @@
+.footer__box {
+  max-width: 1110px;
+  min-height: 220px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1180px) {
+  .footer__box {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer__box {
+    max-width: 800px;
+    min-height: max-content;
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__box {
+    max-width: calc(100% - 20px);
+  }
+}

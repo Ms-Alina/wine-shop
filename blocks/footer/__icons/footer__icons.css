@@ -1,0 +1,6 @@
+.footer__icons {
+  min-width: 146px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}

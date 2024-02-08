@@ -17,3 +17,15 @@
 @import url(../blocks/intro/__line/intro__line.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__img/intro__img.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__box/footer__box.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__icons/footer__icons.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__icon/footer__icon_facebook.css);
+@import url(../blocks/footer/__icon/footer__icon_vk.css);
+@import url(../blocks/footer/__icon/footer__icon_youtube.css);
