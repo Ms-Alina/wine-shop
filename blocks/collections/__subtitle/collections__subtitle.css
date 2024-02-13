@@ -1,0 +1,12 @@
+.collections__subtitle {
+  margin: 60px 0 0 0;
+  padding: 0;
+  font: 400 16px/1.5 'Montserrat', sans-serif;
+}
+
+@media (max-width: 850px) {
+  .collections__subtitle {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+}

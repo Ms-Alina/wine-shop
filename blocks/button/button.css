@@ -1,4 +1,5 @@
-.lead__button {
+.button {
+  max-width: max-content;
   margin: 0;
   padding: 15px 30px;
   background-color: #998431;
@@ -14,19 +15,19 @@
 
 }
 
-.lead__button:hover {
+.button:hover {
   opacity: .8;
 }
 
-@media (max-width: 750px) {
-  .lead__button {
+@media (max-width: 850px) {
+  .button {
     padding: 10px 15px;
     font-size: 14px;
   }
 }
 
 @media (max-width: 550px) {
-  .lead__button {
+  .button {
     text-align: center;
   }
 }

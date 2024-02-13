@@ -1,0 +1,18 @@
+.collections__grid {
+  display: grid;
+  /* grid-template-columns: 75px 370px;
+  grid-template-rows: repeat(3, 76px); */
+  grid-template-columns: min-content max-content;
+  grid-template-rows: repeat(3, min-content);
+  gap: 1px;
+  /* justify-items: center;
+  align-items: center; */
+  background-color: #282828;
+}
+
+@media (max-width: 450px) {
+  .collections__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content;
+  }
+}

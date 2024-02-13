@@ -1,0 +1,14 @@
+.collections__title {
+  margin: 30px 0;
+  padding: 0;
+  max-width: 290px;
+  font: 30px/1.5 'PlayfairDisplay', serif;
+  color: #282828;
+}
+
+@media (max-width: 850px) {
+  .collections__title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+}

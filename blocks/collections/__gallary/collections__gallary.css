@@ -1,0 +1,31 @@
+.collections__gallary {
+  max-width: 540px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: 
+  'img1 img1'
+  'img2 img3';
+}
+
+@media (max-width: 1180px) {
+  .collections__gallary {
+    max-width: 255px;
+    grid-template-areas: 
+    'img1'
+    'img2'
+    'img3';
+  }
+}
+
+@media (max-width: 850px) {
+  .collections__gallary {
+    max-width: 170px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .collections__gallary {
+    max-width: calc(100% - 50px);
+  }
+}
