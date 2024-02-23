@@ -1,0 +1,18 @@
+.tasting__title {
+  max-width: 390px;
+  margin: 0;
+  margin-top: -35px;
+  padding: 10px 50px;
+  background-color: #282828;
+  font: 30px/1.5 'PlayfairDisplay', serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .tasting__title {
+    max-width: 250px;
+    font-size: 22px;
+    padding: 0;
+  }
+}

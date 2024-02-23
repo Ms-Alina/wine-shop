@@ -34,6 +34,22 @@
 @import url(../blocks/collections/__gallary/collections__gallary.css);
 @import url(../blocks/collections/__img/collections__img.css);
 
+@import url(../blocks/tasting/tasting.css);
+@import url(../blocks/tasting/__box/tasting__box.css);
+@import url(../blocks/tasting/__img/tasting__img.css);
+@import url(../blocks/tasting/__img/tasting__img_left.css);
+@import url(../blocks/tasting/__img/tasting__img_right.css);
+@import url(../blocks/tasting/__title/tasting__title.css);
+@import url(../blocks/tasting/__line/tasting__line.css);
+@import url(../blocks/tasting/__text/tasting__text.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/form__input_name.css);
+@import url(../blocks/form/__input/form__input_place.css);
+@import url(../blocks/form/__input/form__input_tel.css);
+@import url(../blocks/form/__button-submit/form__button-submit.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__box/footer__box.css);
 @import url(../blocks/footer/__menu/footer__menu.css);

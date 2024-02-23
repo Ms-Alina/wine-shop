@@ -1,0 +1,14 @@
+.form__input_tel {
+  min-width: 254px;
+  margin-left: 30px;
+  grid-area: input2;
+  justify-self: end;
+}
+
+@media (max-width: 800px) {
+  .form__input_tel {
+    min-width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.form {
+  min-width: 541px;
+  display: grid;
+  grid-template-areas: 
+  'input1 input2'
+  'input3 input3'
+  'button button';
+}
+
+@media (max-width: 800px) {
+  .form {
+    min-width: 400px;
+    grid-template-areas: 
+    'input1'
+    'input2'
+    'input3'
+    'button';
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    min-width: 250px;
+  }
+}

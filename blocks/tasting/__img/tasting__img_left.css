@@ -1,0 +1,11 @@
+.tasting__img_left {
+  top: -70px;
+  left: -30px;
+}
+
+@media (max-width: 1250px) {
+  .tasting__img_left {
+    top: -22%;
+    left: 46%;
+  }
+}

@@ -1,0 +1,10 @@
+.form__input_name {
+  min-width: 254px;
+  grid-area: input1;
+}
+
+@media (max-width: 800px) {
+  .form__input_name {
+    min-width: 100%;
+  }
+}

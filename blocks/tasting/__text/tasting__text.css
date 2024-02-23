@@ -1,0 +1,29 @@
+.tasting__text {
+  margin: 40px 0 81px 0;
+  padding: 0;
+  max-width: 539px;
+  font: 400 16px/1.5 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .tasting__text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 320px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tasting__text {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tasting__text {
+    max-width: 250px;
+  }
+}

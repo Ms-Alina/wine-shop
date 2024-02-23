@@ -1,0 +1,29 @@
+.form__button-submit {
+  grid-area: button;
+  width: 100%;
+  margin: 0 0 80px 0;
+  padding: 15px 0;
+  border: 1px solid #FFFFFF;
+  background: none;
+  font: 500 16px/1.5 'Montserrat', sans-serif;
+  letter-spacing: 5%;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 1;
+  -webkit-transition: opacity .6s ease;
+  -o-transition: opacity .6s ease;
+  transition: opacity .6s ease;
+  cursor: pointer;
+}
+
+.form__button-submit:hover {
+  opacity: .6;
+}
+
+@media (max-width: 800px) {
+  .form__button-submit {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+}

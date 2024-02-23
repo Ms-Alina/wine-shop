@@ -1,0 +1,13 @@
+.tasting__img_right {
+  height: 200px;
+  top: -70px;
+  right: -45px;
+}
+
+@media (max-width: 1250px) {
+  .tasting__img_right {
+    height: auto;
+    top: 103%;
+    right: 46%;
+  }
+}

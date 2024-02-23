@@ -1,0 +1,10 @@
+.form__input {
+  max-height: 30px;
+  margin: 0;
+  padding: 0 0 10px 1px;
+  font: 500 13px/1.5 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background: none;
+}
